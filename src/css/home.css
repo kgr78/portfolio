@@ -1,0 +1,32 @@
+.main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2430;
+    color: #cc4949;
+    font-family: "montserrat";
+    font-size: 50px;
+  }
+
+/* Animation for the floating and spinning image */
+.ImageAnimation {
+    position: absolute;
+    bottom: 0;
+    width: 100px;
+    height: auto;
+    animation: floatAndSpin 2s ease-in-out forwards;
+  }
+  
+  @keyframes floatAndSpin {
+    0% {
+      transform: translateY(50vh) rotate(0deg);
+    }
+    50% {
+      transform: translateY(-30vh) rotate(180deg);
+    }
+    100% {
+      transform: translateY(-25vh) rotate(360deg);
+    }
+  }
