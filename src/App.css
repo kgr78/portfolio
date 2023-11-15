@@ -1,11 +1,10 @@
 .App {
-  width: 100vw;
-  height: 100vh;
+  height: 90vh;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: #1f2430;
   color: #cc4949;
-  font-family: "montserrat";
+  font-family: "Titillium Web", sans-serif;
   font-size: 50px;
 }
