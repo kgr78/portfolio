@@ -3,6 +3,7 @@ import { FaBars, FaTimes } from "react-icons/fa";
 import "../css/Navbar.css";
 import { ThemeContext } from "../App";
 
+
 function capitalizeFirstLetter(str) {
   return str.charAt(0).toUpperCase() + str.slice(1);
 }
@@ -37,8 +38,8 @@ function Navbar() {
       </CustomButton>
       <nav ref={navRef} className={theme === "light" ? "light" : "dark"}>
         <a href="/#">Home</a>
-        <a href="/#">My Projects</a>
-        <a href="/#">About me</a>
+        <a href="/projects">My Projects</a>
+        <a href="/about">About me</a>
         <button className="nav-btn nav-close-btn" onClick={showNavbar}>
           <FaTimes />
         </button>
