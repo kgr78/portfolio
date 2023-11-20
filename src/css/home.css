@@ -1,16 +1,11 @@
-/* Update your CSS (home.css) */
 .App {
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  align-content: center;
-  text-align: center;
-  background-color: #1f2430;
   color: #cc4949;
-  font-family: "montserrat";
+  font-family: "Titillium Web", sans-serif;
   font-size: 50px;
-  position: relative;
-  z-index: 0;
 }
 
 .ImageAnimation {

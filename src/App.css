@@ -1,10 +1,11 @@
-.App {
-  height: 90vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #1f2430;
-  color: #cc4949;
-  font-family: "Titillium Web", sans-serif;
-  font-size: 50px;
+/* App.css */
+.light {
+  background-color: aliceblue;
+  /* Add other light theme styles */
 }
+
+.dark {
+  background-color: #1f2430;
+}
+
+

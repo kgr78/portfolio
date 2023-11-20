@@ -1,7 +1,7 @@
-// Update your component (Home.js) to include a container around text and image
-import React from "react";
+import React, { useContext } from "react";
 import "../css/home.css";
 import { useTypingEffect } from "../hooks/typing-effect";
+import { ThemeContext } from "../App";
 
 const Home = () => {
   const { typedText } = useTypingEffect(
@@ -10,8 +10,10 @@ const Home = () => {
     2000
   );
 
+  const { theme } = useContext(ThemeContext);
+
   return (
-    <div className="App">
+    <div className={`App ${theme === "light" ? "light-bg" : "dark-bg"}`}>
       <img
         className="ImageAnimation"
         src="/images/home_image1.png"
