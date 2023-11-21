@@ -1,7 +1,9 @@
 .App {
   height: 100vh;
+  margin-top: -5rem;
   display: flex;
   justify-content: center;
+  text-align: center;
   align-items: center;
   color: #cc4949;
   font-family: "Titillium Web", sans-serif;

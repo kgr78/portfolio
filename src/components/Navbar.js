@@ -37,7 +37,7 @@ function Navbar() {
         {capitalizeFirstLetter(theme)} Mode
       </CustomButton>
       <nav ref={navRef} className={theme === "light" ? "light" : "dark"}>
-        <a href="/#">Home</a>
+        <a href="/">Home</a>
         <a href="/projects">My Projects</a>
         <a href="/about">About me</a>
         <button className="nav-btn nav-close-btn" onClick={showNavbar}>

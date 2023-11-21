@@ -5,6 +5,7 @@ import Home from './pages/home';
 import About from './pages/about';
 import Projects from './pages/projects';
 import Navbar from "./components/Navbar";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 export const ThemeContext = createContext(null);
 
