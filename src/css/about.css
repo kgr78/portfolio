@@ -74,10 +74,12 @@
   .App {
       align-items: center;
       content: center;
+      
   }
 
   .main {
-    min-height: 100vh;
+    height: auto; 
+    width: auto;
   }
 
   .row-1, .row-2, .row-3 {
